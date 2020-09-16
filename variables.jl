@@ -45,3 +45,6 @@ Even underscore(_) is allowed but not a standard suggested by Julia Developer
 println("#***************# Let's try Mandarin variable#***********************#")
 的 = "hello, world"
 println(的)
+
+dimension_array = ['a','b','c','d']
+println(dimension_array)

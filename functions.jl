@@ -28,6 +28,8 @@ myfunction(a,b) = println(a+b)
 myfunction(10,20)
 
 
+methods(myfunction)
+
 println("*************************************** 2nd Example *******************************************")
 
 mymul(a,b) = println(a*b)
@@ -35,7 +37,7 @@ mymul(a,b) = println(a*b)
 mymul(10,20)
 
 
-println("*************************************** 3rd Example *******************************************")
+println("*************************************** 4th Example *******************************************")
 
 
 function f(a,b)

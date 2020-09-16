@@ -30,4 +30,18 @@ println(Array{String}(undef,3)) # you get undef, should we should to an variable
 println("#***************# Array with any Types #***************#")
 println(Array{any}(undef,3)) # Same here 
 
+#***************#Let's Greet #***********************#
+println("#***************#Let's Greet #***********************#")
+greeting = "Hello, Thanks for checking my practice"
+println(greeting)
 
+
+#***************# What's the variable keyword/name avaiable in Julia #***********************#
+println("#***************# What's the variable keyword/name avaiable in Julia #***********************#")
+#= variable in julia can be anything letter, word and number, including special character. Even Mandarin,Chinese can also be a variable name, even unicode 
+Even underscore(_) is allowed but not a standard suggested by Julia Developer
+
+=#
+println("#***************# Let's try Mandarin variable#***********************#")
+的 = "hello, world"
+println(的)

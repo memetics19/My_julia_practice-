@@ -1,3 +1,9 @@
+#=
+Author:= Shreeda Bhat
+License:= MIT 
+UTF-8 =#
+
+
 # julia has many logical operator, !, && and ||
 #= 
 ! - Logical Not 
@@ -58,4 +64,11 @@ println(25==20)#False
 println((10-56>1)&& (10==10)||(10-6>1))#True
 
 #Julia evaluates from left to right for logical expressions
-println(true&&false||true)
+println(true&&false||true) # True
+
+
+#= 
+
+&&  and || are the boolean operators 
+
+| and & are the bitwise operators =#

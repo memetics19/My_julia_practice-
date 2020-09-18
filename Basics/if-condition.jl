@@ -6,7 +6,9 @@ UTF-8 =#
 #=
 In Julia the if condition is simple, Unlike python, matlab it won't use vectorized code. 
 
-    `for.....end`
+    `if condition.....end`
+
+    `if condition....else.....end`
 
 =#
 

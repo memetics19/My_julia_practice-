@@ -56,3 +56,11 @@ function fun(a,b)
 end
 
 fun(10,20)
+
+
+println("*************************************** 5th Example *******************************************")
+# Let's write anonymous function
+
+friend = name -> println("hi $name")
+
+friend("a")

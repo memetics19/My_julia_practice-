@@ -9,3 +9,9 @@ To run the julia files in basics folder, You can use shell script
    `chmod 777 run-julia.sh`
 2. Run the program
    `./run-julia.sh`
+
+
+
+# To-do 
+
+Make Docker to run the program instead of shell script. 

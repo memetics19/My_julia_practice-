@@ -31,3 +31,18 @@ else
     println("normal")
 
 end
+
+
+println("***********************3rd Example*************************")
+a = rand()
+b = rand()
+
+c=((a>b) ? println("a is greater") : ("b is greater"))
+print(c)
+
+println("***********************4th Example*************************")
+a = rand()
+b = rand()
+
+c=((a>b) && println("a is greater"))
+print(c)

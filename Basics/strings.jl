@@ -13,7 +13,10 @@ println("$character_1:This is Character")
 
 println("##############################################################")
 
+statement_3 = """This is also string dont be shocked"""
 
+
+println(statement_3)
 # character_2 = 'he'
 # println("$character_2:This is not a Character Error will be raised so I'm commenting ")
 #= 

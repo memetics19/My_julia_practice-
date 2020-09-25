@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - .:/Basics
+    command: >
+      sh -c "julia arithmaticexpression.julia &&
+              julia datatypes.jl &&
+              julia function.jl &&
+              julia Helloworld.jl &&
+              julia if-condition.jl &&
+              julia logicalexpres.jl"
